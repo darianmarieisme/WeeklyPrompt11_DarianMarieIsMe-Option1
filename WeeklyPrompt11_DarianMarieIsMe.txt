@@ -4,3 +4,21 @@ Search the internet for the concept  “double buffering” in
 computer graphics. Discuss the relationship 
 between the pygame display.flip() method and double buffering.
 04/05/2026
+
+Double buffering is a way to process graphic frames in a seamless manner
+off screen. The front buffer shows a frame of what the player is currently
+seeing while the back buffer is drawing the next frame. The pygame.display.flip()
+command is what occurs when the buffers are replaced. The back buffer becomes
+visible after being drawn and replaces the front buffer.
+
+The pygame.display.flip command can be used in the main programming code
+after graphics are drawn. pygame.display.flip is essential for ensuring that graphics in a
+program are visible. The way pygame.display.flip is used and how it interacts with double buffering
+shows that this function requires to be constantly updating, meaning it will need to be
+placed in a while loop. 
+
+Placing this code in the main program's while loop ensures it will always run
+during the duration of the program running. Because of this,
+the graphics drawn onto the
+back buffer will be visible after drawing and replacing the front buffer.
+
