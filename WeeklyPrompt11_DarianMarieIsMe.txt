@@ -1,0 +1,6 @@
+Weekly Prompt 11 Option 1
+Darian Marie Bruce
+Search the internet for the concept  “double buffering” in 
+computer graphics. Discuss the relationship 
+between the pygame display.flip() method and double buffering.
+04/05/2026
